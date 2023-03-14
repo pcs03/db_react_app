@@ -5,8 +5,10 @@
         "node": true
     },
     "extends": [
-        "plugin:react/recommended",
-        "standard-with-typescript"
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "other-configuration-that-enables-formatting-rules",
+        "prettier"
     ],
     "overrides": [
     ],

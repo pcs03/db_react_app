@@ -1,12 +1,10 @@
 import React from 'react'
+import mock_database from '../../data/mock_database.json'
 
-function App (): any {
+function App () {
   return (
     <div className='app'>
-      <h1>NS is een klote bedrijf!</h1>
-      <p>hello there</p>
-      <InputField />
-      <TripsCatalog />
+
     </div>
   )
 }
